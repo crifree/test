@@ -19,4 +19,14 @@ git serve a salvare via via il tuo progetto e ti consente di collaborare meglio 
  -git diff.
  per uscire da questo comando e tornare al prompt bisogna premere q.
 
+ per aggiungere piu file allo stesso tempo nella staging area, puo essere utile questo comando invece che scrivere ogni comando per piu file:
+ -git add .
+ e poi un semplice commit per committare.
+
+ per vedere lo stato dei file esiste il comando 
+ -git status, ma solo quando il file è stato addato alla staging area, quindi prima che sia stato committato.
+
+ per eliminare un file bisogna anche rimuoverlo da git e non solo dalla working area, ciò può essere fatto con il comando 
+ git rm --cached file.txt
+
  
