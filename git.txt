@@ -1,0 +1,2 @@
+come si usa git e a cosa serve.
+git serve a salvare via via il tuo progetto e ti consente di collaborare meglio con altri utenti nel team e di poter tornare insietro nelle vecchie versioni del tuo progetto.
