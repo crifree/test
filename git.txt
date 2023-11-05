@@ -1,2 +1,14 @@
 come si usa git e a cosa serve.
 git serve a salvare via via il tuo progetto e ti consente di collaborare meglio con altri utenti nel team e di poter tornare insietro nelle vecchie versioni del tuo progetto.
+
+ comandi per iniziare, da utilizzare nel terminale di vsc:
+ -git version: restituisce la versione attuale di git;
+ -git init: comando per iniziare.
+
+ in pratica il file una volta creato e salvato nella working area, ovvero dentro vsc stesso, può essere spostato verso ,la staging area, prima di essere committato, tutto ciò avviene con questi comandi:
+ -git status: restituisce un errore e specifica come dovresti aggiungere il file nella staging area, ovvero così:
+ -git add file.txt: il file viene quindi aggiunto ed è pronto per essere eventualmente committato.
+ -git commit -m "prima versione del progetto": in questo modo si committa, il comando -m consente di lasciare un commento così da riconoscere quali modifiche sono state apportate al file.
+
+ per skippare lo staging si può aggiungere il comando -a al committing:
+ -git commit -a -m "blabla"
