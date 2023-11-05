@@ -10,8 +10,13 @@ git serve a salvare via via il tuo progetto e ti consente di collaborare meglio 
  -git add file.txt: il file viene quindi aggiunto ed è pronto per essere eventualmente committato.
  -git commit -m "prima versione del progetto": in questo modo si committa, il comando -m consente di lasciare un commento così da riconoscere quali modifiche sono state apportate al file.
 
+ una volta committao il file si può usare il comando -git log per visualizzare tutti i commit e da parte di quale utente.
+
  per skippare lo staging si può aggiungere il comando -a al committing:
  -git commit -a -m "blabla"
 
- prima di committare il file, si può eseguire un comando che mostri la differenza tra il nuovo cambiamento nella versione, e la versione precedente.
+ prima di aggiungere il file nella staging area, si può eseguire un comando che mostri la differenza tra il nuovo cambiamento nella versione, e la versione precedente.
  -git diff.
+ per uscire da questo comando e tornare al prompt bisogna premere q.
+
+ 
