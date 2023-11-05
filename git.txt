@@ -12,3 +12,6 @@ git serve a salvare via via il tuo progetto e ti consente di collaborare meglio 
 
  per skippare lo staging si può aggiungere il comando -a al committing:
  -git commit -a -m "blabla"
+
+ prima di committare il file, si può eseguire un comando che mostri la differenza tra il nuovo cambiamento nella versione, e la versione precedente.
+ -git diff.
