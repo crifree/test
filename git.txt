@@ -29,4 +29,14 @@ git serve a salvare via via il tuo progetto e ti consente di collaborare meglio 
  per eliminare un file bisogna anche rimuoverlo da git e non solo dalla working area, ciò può essere fatto con il comando 
  git rm --cached file.txt
 
- 
+creare un tag:
+-git tag -a nomeTag -m "messaggio"
+e per visualizzare i tags:
+-git tag
+
+per creare un nuovo branch:
+-git branch -b nomeBranch
+e per spostarsi di branch in branch si usa il comando:
+-git switch nomeBranch
+per verificare in quale branch si è si può usare il comando:
+-git branch
