@@ -52,3 +52,5 @@ per pushare una branch nella repository di github:
 per pushare il semplice codice dalla repository locale a quella di github:
 -git push origin nomeBranch
 
+per unire due brance trasferendo i file da una specifica branch all'altra si utilizza il comando merge:
+-git merge nuovaBranch 
