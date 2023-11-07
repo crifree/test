@@ -33,6 +33,8 @@ creare un tag:
 -git tag -a nomeTag -m "messaggio"
 e per visualizzare i tags:
 -git tag
+per pushare i tag nella repository di github:
+-git push origin nomeTag
 
 per creare un nuovo branch:
 -git branch -b nomeBranch
@@ -43,3 +45,10 @@ per verificare in quale branch si è si può usare il comando:
 
 per eliminare una branch:
 git branch -d nomeBranch
+
+per pushare una branch nella repository di github:
+-git push origin nuovaBranch
+
+per pushare il semplice codice dalla repository locale a quella di github:
+-git push origin 
+
