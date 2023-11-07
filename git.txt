@@ -40,3 +40,6 @@ e per spostarsi di branch in branch si usa il comando:
 -git switch nomeBranch
 per verificare in quale branch si è si può usare il comando:
 -git branch
+
+per eliminare una branch:
+git branch -d nomeBranch
