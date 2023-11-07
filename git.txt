@@ -50,5 +50,5 @@ per pushare una branch nella repository di github:
 -git push origin nuovaBranch
 
 per pushare il semplice codice dalla repository locale a quella di github:
--git push origin 
+-git push origin nomeBranch
 
